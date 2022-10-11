@@ -1,0 +1,45 @@
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading-container {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: aliceblue;
+}
+.input-container {
+    background-color: rgb(194, 124, 124);
+    text-align: center;
+    border-radius: 12px;
+    margin: 24px;
+}
+
+#searchInput {
+    border-radius: 8px;
+    width: 340px;
+    height: 20px;
+    margin: 24px;
+    font-size: large;
+}
+
+#result {
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.country-container {
+    width: 250px;
+    background-color: rgb(206, 93, 93);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+span {
+    font-weight: bold;
+}
